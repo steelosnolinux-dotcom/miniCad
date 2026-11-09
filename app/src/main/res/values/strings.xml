@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MiniCAD</string>
+    <string name="btn_height">Высота: 750</string>
+    <string name="btn_sortament">Сортамент</string>
+    <string name="btn_elements">Элементы</string>
+    <string name="btn_params">Параметры</string>
+    <string name="hint_select_plane">Укажите плоскость для построения</string>
+    <string name="hint_select_line">Укажите линию размещения</string>
+    <string name="label_length">Длина, мм</string>
+    <string name="label_width">Ширина, мм</string>
+    <string name="label_thickness">Толщина, мм</string>
+    <string name="label_radius">Радиус скругления, мм</string>
+    <string name="label_placement">Привязка</string>
+    <string name="placement_center">По центру</string>
+    <string name="placement_edge">По краю</string>
+    <string name="btn_place">Разместить</string>
+    <string name="title_sortament">Сортамент</string>
+    <string name="title_elements">Элементы модели</string>
+    <string name="title_params">Параметры изделия</string>
+    <string name="btn_toggle_ui">UI</string>
+</resources>

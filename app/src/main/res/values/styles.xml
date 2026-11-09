@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/bg_panel</item>
+        <item name="android:colorPrimary">@color/accent</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:statusBarColor">@color/bg_panel</item>
+        <item name="android:navigationBarColor">@color/bg_panel</item>
+        <!-- все AlertDialog приложения открываются в тёмном стиле -->
+        <item name="android:alertDialogTheme">@style/AppDialogTheme</item>
+    </style>
+
+    <style name="AppButton" parent="android:Widget.Material.Button">
+        <item name="android:background">@drawable/bg_button_dark</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <!-- Тема диалогов: тёмный фон, светлый текст, акцентные кнопки -->
+    <style name="AppDialogTheme" parent="@android:style/Theme.Material.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/bg_dialog_dark</item>
+        <item name="android:colorPrimary">@color/accent</item>
+        <item name="android:colorPrimaryDark">@color/bg_panel</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <!-- Текст заголовка внутри наших диалогов (Сортамент, Параметры, Библиотека) -->
+    <style name="DialogTitle" parent="android:Widget.Material.TextView">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+
+    <!-- Подписи полей: «Ширина W», «Смещение U (можно выражение)»… -->
+    <style name="FieldLabel" parent="android:Widget.Material.TextView">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <!-- Поля ввода: белые буквы на тёмном, подчёркивание в акценте -->
+    <style name="FieldInput" parent="android:Widget.Material.EditText">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:backgroundTint">@color/accent</item>
+    </style>
+
+    <!-- Спиннеры: виден выбранный текст на тёмном фоне -->
+    <style name="FieldSpinner" parent="android:Widget.Material.Spinner">
+        <item name="android:backgroundTint">@color/accent</item>
+    </style>
+</resources>
